@@ -1,0 +1,88 @@
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1, h2 {
+font-family: 'Gentium Book Basic', serif;
+text-decoration: underline;
+ }
+
+h3 {
+  font-family: 'Gentium Book Basic', serif;
+  color: #a80000;
+
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+.masthead-intro, .masthead-heading, .content-footer {
+  text-align: center;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+    color: #fff;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-image: url('http://i63.photobucket.com/albums/h146/tvegas99/pier_thinkful12_zpsqrid7yei.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: solid 1em #FFCF96;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    color: #fff;  /* shorthand for white :#ffffff;*/
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.social > li {
+    display: inline-block;
+}
+
+.questions-section > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* Layout */
+    margin: 2em 0 1em 0;
+}
+
+.content-footer > p {
+ font-family: 'Open Sans', sans-serif;
+ color: #a80000;
+ font-weight: bolder;
+ }
+
+.content-footer {
+  /* Red, Green, Blue: #RRGGBB */
+  background-color: #FFCF96;
+  padding: 10px;
+
+}
+.questions-section a, .social li > a, .content-footer p > a {
+  text-decoration: none;
+
+}
